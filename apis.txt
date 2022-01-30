@@ -1,0 +1,36 @@
+-----------------------------------------Departments---------------------------------------
+
+POST
+http://localhost:9001/departments/
+
+{
+    "departmentName": "IT",
+    "departmentAddress": "2nd Street, Bangalore",
+    "departmentCode": "IT-006" 
+}
+
+GET
+http://localhost:9001/departments/1
+
+--------------------------------------------Users------------------------------------------
+
+POST
+http://localhost:9002/users/
+
+{
+    "firstName": "Saurav",
+    "lastName": "Chaudhary",
+    "email": "saurav44.sc@gmail.com",
+    "departmentId": "1"
+}
+
+
+
+
+API GATEWAY
+http://localhost:9191/users/
+
+GET
+http://localhost:9002/users/1
+
+
